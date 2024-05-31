@@ -1,0 +1,36 @@
+.header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    .nav {
+        display: flex;
+
+        & li {
+            margin-left: 70px;
+            font-size: 16px;
+            font-weight: 500;
+            color: $main_font_color;
+        }
+
+        & li:first-child {
+            margin: 0px;
+        }
+
+        & li:hover {
+            cursor: pointer;
+            color: $hover_color;
+        }
+
+
+    }
+
+    .get_start {
+        background-color: $main_font_color;
+        color: $white_color;
+        border-radius: 47px;
+    }
+}
